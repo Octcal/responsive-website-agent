@@ -1,0 +1,82 @@
+/* Basic Styles */
+
+html {
+    font-size: 18px;
+}
+
+body {
+    font-family: Helvetica, sans-serif;
+    line-height: 1.4em;
+}
+
+span {
+    font-family: "Roboto Condensed", sans-serif;
+    font-weight: 300;
+    font-size: 1.2rem;
+}
+
+a {
+    font-style: none;
+}
+
+/* -------------------------------------------------------------------------------------------------- */
+
+/* Container Classes - Keeps all content aligned */
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+/* -------------------------------------------------------------------------------------------------- */
+/*  Brand Heading */
+
+.brand {
+    color: white;
+    background-color: black;
+}
+
+.brand .container {
+    display: flex;
+    align-items: center;
+    padding: 1.5rem ;
+}
+
+.brand .container span {
+    font-size: 1.2rem;
+}
+
+#logoStyle {
+    height: 1.5em;
+    padding-left: 0.5rem;
+    padding-right: 1rem;
+}
+
+/* -------------------------------------------------------------------------------------------------- */
+/* News Banner */
+
+.banner {
+    color: white;
+    background-image: url("../img/moto.jpeg");
+    background-size: cover;
+    height: 25rem;
+}
+
+.banner .container {
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+.bannerText {
+    background-color: black;
+    width: 20rem;
+    padding: 2rem 3rem;
+}
+
+.bannerText h1 {
+    font-size: 2rem;
+    /* font-weight: 700; */
+    letter-spacing: 2px;
+    padding-top: 0.5rem;
+    line-height: 2.25rem;
+}
